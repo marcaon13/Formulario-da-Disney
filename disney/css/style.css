@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: auto;
+}
+
+.container {
+    background: #0E1746;
+}
+
+
+.container-header {
+    background-color: inherit;
+    height: 800px;
+    text-align: center;
+}
+
+.logo {
+    width: 180px;
+}
+
+.box-form {
+    background-color: white;
+    width: 25%;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 25px;
+    border: 1px solid white;
+    height: 370px;
+    width: 600px;
+}
+
+.box-div-form {
+    text-align: left;
+}
+
+.passo1 {
+    text-transform: uppercase;
+    color: #252526;
+    font-weight: bold;
+    margin: 0px 10px 0px 0px;
+}
+
+.text-digite-email {
+    color: #252526;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.text-entre-na-conta {
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+
+.email-input {
+    padding: 15px;
+    width: 500px;
+    background-color: #ebe1e1;
+    border: none;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.email-input:focus {
+    outline: 0;
+    border-bottom: 3px solid black;
+}
+
+.email-input:focus::placeholder {
+    position: relative;
+    bottom: 15px;
+    font-size: 12px;
+}
+
+.container-box-continuar  {
+    color: white;
+    padding: 10px;
+    background-color: #0058E1;
+    border: none;
+    border-radius: 20px;
+    width: 500px;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.container-box-continuar:hover {
+    cursor: pointer;
+    background-color: #3168c2;
+    transition: 10ms;
+}
+
+
